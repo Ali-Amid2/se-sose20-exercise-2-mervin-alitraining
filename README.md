@@ -44,7 +44,7 @@ author's language, thoughts, ideas, or expressions as one's own.
 Installation of Gradle is optional. Gradle wrapper `gradlew` is provided as part of the project in the project root directory. 
 
 ### Project Structure
-```bash
+```
 se-sose20-exercise-1
 ├── gradle
 │   └── wrapper
@@ -63,14 +63,18 @@ se-sose20-exercise-1
 ├── src
 |   ├── main
 |   |   └── java
-|   |       ├── raytracer -> Here is space for your implementation
-|   |       |   └── Main.java
+|   |       ├── raytracer [Please add your implementation inside this folder]
+|   |       |   ├── Main.java
+|   |       |   ├── PrettyPrintParserTest.java
+|   |       |   └── XMLParserTest.java
 |   |       └── score.java
 |   └── test
 |       └── java
 |           └── raytracer
 |               ├── MainTest.java
 |               ├── PrettyPrintParserTest.java
+|               ├── SceneTest.java
+|               ├── Vec3DTest.java
 |               └── XMLParserTest.java
 ├── .classpath
 ├── .gitignore
