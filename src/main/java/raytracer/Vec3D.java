@@ -58,6 +58,15 @@ public class Vec3D {
         return length;
     }
 
+    /** cross product of two vectors */
+    public Vec3D cross(Vec3D other){
+        double newX=(this.y*other.z - other.y*this.z);
+        double newY=-(this.x*other.z - other.x*this.z);
+        double newZ=(this.x*other.y - other.x*this.y);
+
+        return new Vec3D(newX, newY, newZ);
+    }
+
     public double getX() {
         return x;
     }
