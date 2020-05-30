@@ -1,0 +1,24 @@
+Programmers: Seyedali Amid, Mervin Wilfred D'Souza
+
+MSc in Digital Engineering
+
+
+the following are used in this Program:
+
+1- Java SE Development Kit 14.0.1: https://www.oracle.com/java/technologies/javase-jdk14-downloads.html
+
+2- gradle version 6.4.1: https://gradle.org/releases/
+
+3- git version 2.26.2: https://git-scm.com/download/win
+
+4- IntelliJ IDEA Community Edition: https://www.jetbrains.com/idea/download/#section=windows
+
+5- the Formula for Line–sphere intersection:
+
+https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection
+
+
+6- fundamental mathematical operations on the vectors in this program have been written according to
+   the Mathematic book written by "Mohammad Beygi - Salam Dibaji".
+
+Note: All the process in this program is based on the Programmers' thoughts and Ideas.
