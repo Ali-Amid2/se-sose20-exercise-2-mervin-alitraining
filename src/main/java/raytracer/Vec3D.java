@@ -51,6 +51,13 @@ public class Vec3D {
         return x * other.x + y * other.y + z * other.z;
     }
 
+    /** calculate the length of the vector */
+    public double len(){
+        double length = Math.sqrt(Math.pow(this.x,2) + Math.pow(this.y,2) + Math.pow(this.z,2));
+
+        return length;
+    }
+
     public double getX() {
         return x;
     }
