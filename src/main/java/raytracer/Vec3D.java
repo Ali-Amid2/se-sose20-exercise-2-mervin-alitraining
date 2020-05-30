@@ -58,6 +58,12 @@ public class Vec3D {
         return length;
     }
 
+    /** normalize the vector to length 1 */
+    public Vec3D normalize(){
+        double length = len();
+        return new Vec3D(this.x/length, this.y/length,this.z/length);
+    }
+
     /** cross product of two vectors */
     public Vec3D cross(Vec3D other){
         double newX=(this.y*other.z - other.y*this.z);
